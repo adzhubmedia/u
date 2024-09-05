@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="deepview-service" content="deepview-service">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Aviator </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <img src="https://i.ibb.co/xYb9xNP/5deb10028d619a9ea114d959c78a3237.jpg" alt="Aviator Logo" class="logo">
+            <h1>Welcome Pack Upto 4,50,000 INR </h1>
+            <p>One more step...
+</br><b>Please Complete the Security Check!</b></p>
+            <div class="captcha-container">
+                <button class="cta-button" onclick="startCaptcha()">Not a Robot</button>
+                <div class="captcha-verification">
+                    <div class="loading-spinner" id="loading-spinner"></div>
+                    <div class="checkmark" id="checkmark">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+                            <path class="checkmark__check" fill="none" d="M14 27l8 8 16-16"/>
+                        </svg>
+                    </div>
+                </div>
+                <p id="success-message" class="success-message"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
